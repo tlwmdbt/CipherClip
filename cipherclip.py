@@ -1,4 +1,6 @@
-# Password Generator
+# CipherClip Password Generator
+# a cipher is produced and pasted into the clipboard
+# by Daniel Toschläger, 2020, no warranty
 #================================
 from random import choice, seed, randint
 from os import urandom
@@ -26,7 +28,7 @@ while counter <= PwdLength:
     counter = counter + 1
 
 
-# construct the password from entrys of the temporary list and copy it to Win-clipboard
+# construct the password from entrys of the temporary list and copy it to clipboard
 password = "".join(tmp_passwd)  
 clipboard.copy(password)
 #text = clipboard.paste()  # text will have the content of clipboard
