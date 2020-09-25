@@ -5,7 +5,7 @@ Conventions:
 The password will have 16 characters. The first letter is from the latin alphabet, lower or upper case. All other digits can also contain numbers and special characters. No duplicate digits.
 
 Dependencies:
-1. Clipboard: https://pypi.org/project/clipboard/ 
+1. Clipboard https://pypi.org/project/clipboard/ by Terry Yin https://pypi.org/user/Terry.Yin/
 2. An interpreter (>3.8) capable of loading the OS module and optional interfacing /dev/urandom or it's OS equivalent
 
 Disclaimer:
