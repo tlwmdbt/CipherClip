@@ -1,7 +1,7 @@
 # CipherClip
 By Daniel Toschläger, 2020
 
-Description: A Cipher Generator for PC's. It generates a 16 character alpha-numeric cipher with special characters and writes it directly into the Windows clipboard to be pasted from there. If available /dev/urandom or it's actual equivalent in the OS is used to seed the python random functions. If urandom is not available the standard randint() function is used.
+Description: A Cipher Generator for PC's. It generates a 16 character alpha-numeric cipher with special characters and writes it directly into the Windows clipboard to be pasted from there. If available /dev/urandom or it's actual equivalent in the OS is used to seed the python random functions. If urandom is not available the standard random function is used.
 
 This script can be run within a shell (like cmd or powershell) with a file link similar to this: 
 %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden python.exe C:\SomePathPointingToThis\CipherClip.py
